@@ -1,0 +1,11 @@
+# Dependency directories
+node_modules
+
+# Distribution
+dist-esm
+dist
+build
+
+# React cdn
+react-cdn.js
+react-dom-cdn.js
