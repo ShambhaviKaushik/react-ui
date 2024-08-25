@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="rootjs"></div>
+    <div id="rootreact"></div>
+    <script src="./react-cdn.js"></script>
+    <script src="./react-dom-cdn.js"></script>
+    <script>
+        const headingJS = document.createElement("h1");
+        headingJS.innerHTML = "Hello from Javascript!";
+        const rootJS = document.getElementById("rootjs");
+        rootJS.appendChild(headingJS);
+    </script>
+    <!-- <script>
+        const headingReact = React.createElement("h1", {}, "Hello from React!");
+        const rootReact = ReactDOM.createRoot(document.getElementById("rootreact"));
+        rootReact.render(headingReact);
+    </script> -->
+    <script src="./App.js"></script>
+</body>
+</html>
